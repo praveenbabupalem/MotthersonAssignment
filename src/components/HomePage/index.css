@@ -1,0 +1,66 @@
+.homePageParDetails {
+  height: 27px;
+  color: #fdc435;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+.HomePageHead {
+  width: 486px;
+  font-size: 44px;
+
+  color: #333333;
+  font-weight: 700;
+}
+
+.HomePageDescription {
+  font-weight: 400;
+  color: #828282;
+  font-size: 24px;
+  width: 486px;
+}
+
+@media screen and (max-width: 768px) {
+  .homePageContainer {
+    width: 300px;
+    margin-left: 100px;
+  }
+  .HomePageDescription {
+    width: 350px;
+  }
+}
+
+.projectButton {
+  background-color: #fdc435;
+  color: #25282b;
+  border-width: 0px;
+  border-radius: 10px;
+
+  height: 32px;
+  width: 120px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.linkedInButton {
+  background-color: transparent;
+  color: #25282b;
+  height: 32px;
+  width: 120px;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.homePageContainer {
+  margin-left: 300px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .homePageContainer {
+    margin-left: 20px;
+  }
+}
